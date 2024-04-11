@@ -14,9 +14,9 @@ const handleClickDec = () => {
 
   return (
     <div>
-      <h1>{count}</h1>
-      <button onClick={handleClickInc}>+</button>
-      <button onClick={handleClickDec}>-</button>
+      <h1 className='text-4xl'>{count}</h1>
+      <button className='btn btn-outline-primary ' onClick={handleClickInc}>+</button> 
+      <button className='btn btn-outline-primary ' onClick={handleClickDec}>-</button>
     </div>
     
   )
